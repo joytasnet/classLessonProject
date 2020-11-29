@@ -1,6 +1,6 @@
 ##問題  
 1.以下のフィールドを持つDietクラスを作成せよ  
-　String food:食べ物を入力させ取得  
+ String food:食べ物を入力させ取得  
  double nowW:現在の体重を入力させ取得  
  final double TARGET_W:目標体重を入力させ取得  
  int power:体力。初期値を１００とする  
@@ -10,7 +10,7 @@
 	※「走る」による処理は以下  
 	nowW -= 0.5;  
  	power -= 30;  
- 	hunger += 10;
+ 	hunger += 10;  
 	※「食べる」による処理は以下  
 	nowW += 0.3;  
 	power += 3;  
