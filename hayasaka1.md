@@ -1,4 +1,4 @@
-１．日常を表すDailyクラスを作成する。
+### １．日常を表すDailyクラスを作成する。
 
 
 ＜フィールド変数＞
@@ -7,36 +7,32 @@ int balance　→　残高を表す
 
 ＜コンストラクタ＞
 
-public Daily(int balance)
-
+public Daily(int balance)  
 ※balanceに初期残高を設定する（10000など）
 
 ＜メソッド＞
 
-public void display()
-
+public void display()  
 残高を表示する
 
-public void eat(String meal,int price)
+public void eat(String meal,int price)  
+meal:食事内容　price:価格  
+※残高が足りない場合はその旨表示
 
-meal:食事内容　price:価格
+public void play(String something,int price)  
+something:遊ぶ内容、 price:価格  
+※残高が足りない場合はその旨表示
 
-残高が足りない場合はその旨表示
-
-public void play(String something,int price)
-
-something:遊ぶ内容、 price:価格
-
-残高が足りない場合はその旨表示
-
-public void getMoney(int money)
-
+public void getMoney(int money)  
 money:稼いだ金額
 
 
-２．DailyAppクラスにおいて、実行例となるように処理を記述せよ。
+### ２．DailyAppクラスにおいて、実行例となるように処理を記述せよ。
 
 ※バイト代はランダムで（5,000円、7,000円、10,000円）とする
+
+
+【実行例】
 
 何する？1.残高確認, 2.食事, 3.遊ぶ, 4.バイト, 5.終了>1
 
