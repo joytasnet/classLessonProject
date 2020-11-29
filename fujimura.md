@@ -1,4 +1,4 @@
-#　BINGO  
+# BINGO  
 以下のフィールドを持つPlayerクラスを作成せよ  
 name:名前を表す  
 age:年齢を表す  
