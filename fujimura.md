@@ -49,7 +49,7 @@ BET枚数を入力。0で終了　1-10>10
 3 7 5   
 3 1 1   
 3 7 6   
-1 LINE BINGO!!  win:120
+1 LINE BINGO!!  win:120  
 藤村さんの所持コイン:185  
 BET枚数を入力。0で終了　1-10>0  
 Game Over  
